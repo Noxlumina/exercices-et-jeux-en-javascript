@@ -1,6 +1,4 @@
-const read = require("readline-sync");
-
-console.log("saissisez trois chiffres");
+console.log("---Saissisez trois nombres---");
 
 let n1 = read.questionFloat("nombre 1 ? ");
 let n2 = read.questionFloat("nombre 2 ? ");
@@ -15,6 +13,3 @@ console.log(`[${List}] --> le nombre ${n2} est le plus grand`);
 } else {
 console.log(`[${List}] --> le nombre ${n3} est le plus grand`);
 }
-
-let plusGrand = Math.max(List[n1,n2,n3]);
-console.log(plusGrand);
