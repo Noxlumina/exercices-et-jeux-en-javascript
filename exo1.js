@@ -1,6 +1,4 @@
-const Welc = "Bienvenue ";
-let monPrenom = "Adrien";
-console.log(Welc+monPrenom);
+const read = require("readline-sync");
+let prenom = read.question("Quel est votre prenom? ");
 
-var prenom = "Thomas";
 console.log(` Bienvenue ${prenom} , que veux tu?`);
