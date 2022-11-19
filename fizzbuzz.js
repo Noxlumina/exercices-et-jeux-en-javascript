@@ -1,8 +1,8 @@
 const read = require("readline-sync");
 
-let nb = read.questionFloat("Nombre ? ");
+let nb = read.questionInt("Choississez un nombre entier ? ");
 
-var affichage = "";
+let affichage = "";
 
 for (i = 0; i <= nb; i++) {
   let multiple3 = i / 3;
