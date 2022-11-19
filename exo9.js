@@ -1,11 +1,11 @@
 const read = require("readline-sync");
 
-console.log("starstair");
+console.log("---pyramide de côté---");
 
-let nb = read.questionFloat("Nombre ? ");
-var stars = "";
+let nb = read.questionFloat("Quel est le nombre de palier de la pyramide ? ");
+let stars = "";
 
-for (var i=1; i<=nb;i++)
+for (let i=1; i<=nb;i++)
 {
 //console.log(i);
 stars=stars+"*";
@@ -13,7 +13,7 @@ console.log(stars);
 
 }
 
-for (var i=nb; i>1;i--)
+for (let i=nb; i>1;i--)
 {
     stars=stars.slice(0,-1);
     console.log(stars); 
