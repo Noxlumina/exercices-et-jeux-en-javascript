@@ -1,9 +1,10 @@
 const read = require("readline-sync");
-let maxAleatoire = read.questionFloat("Nombre aléatoire entre 0 et :");
+console.log("---JustePrix---")
+let maxAleatoire = read.questionInt("Nombre aleatoire entre 0 et :");
 let nb = Math.round(maxAleatoire * Math.random());
-let nbTours = read.questionInt("Nombre de tours en lequel vous souhaitz résoudre le problème?")
+let nbTours = read.questionInt("Nombre de tours en lequel vous souhaitez resoudre le probleme ? ")
 
-console.log("Déterminer le juster prix?");
+console.log("Determiner le juster prix?");
 
 for (i = 0; i <= nbTours; i++) {
     if (i<nbTours)
@@ -20,5 +21,5 @@ for (i = 0; i <= nbTours; i++) {
     console.log("juste prix");
     break;
   }
-  console.log(nb);
+  // console.log(nb);
 }
