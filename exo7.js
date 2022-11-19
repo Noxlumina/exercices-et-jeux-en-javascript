@@ -2,7 +2,7 @@ const read = require("readline-sync");
 
 console.log("somme d'un entier");
 
-let nb1 = read.questionFloat("Nombre 1 ? ");
+let nb1 = read.questionInt("Saississez un nombre ? ");
 let nb2 = nb1;
 let texte = nb1
 
