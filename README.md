@@ -42,20 +42,20 @@ Vous disposez d'une liste de températures (°C). Parcourez cette liste et affic
 ## **Jeux 1 FizzBuzz**
 ### <span style="color: green">Contexte</span>
 Le FizzBuzz est un exercice très courant dans l'informatique.<br/>
-Vous pourrezêtre confrontéà cet exercice pour un entretien d'embauche.<br/>
+Vous pourrez être confronté à cet exercice pour un entretien d'embauche.<br/>
 L'exercice n'est pas bien difficile mais l'employeur vérifiera la méthode que vous avez utilisé, le temps que vous avez mis ainsi que votre réflexion sur le problème posé.
 ### <span style="color: green">Consigne</span>
 Demandez à l'utilisateur de saisir un nombre "N" .<br/>
 Afficher tous les nombres allant de 1 à "N", avec les particularités suivantes : <br/>
 ▪Remplacez tous les multiples de 3 par "FIZZ"<br/>
-▪Remplaceztous les multiples de 5 par "BUZZ"<br/>
+▪Remplacez tous les multiples de 5 par "BUZZ"<br/>
 ▪Remplacez tous les multiples de 3 ET 5 par "FIZZBUZZ"
 
 ## **Jeux 2 Juste Prix**
 ### <span style="color: green">Contexte</span>
-Vous connaissez certainement le jeu télévisé de Vincent Lagaffnommé "Le Juste Prix" ?<br/>
+Vous connaissez certainement le jeu télévisé de Vincent Lagaff nommé "Le Juste Prix" ?<br/>
 Une cagnotte remplie de cadeaux est proposée à un candidat qui arrive en finale.<br/>
-Tous ces cadeaux ont une valeur qui est cachée au candidat.<br/>
+Tous ses cadeaux ont une valeur qui est cachée au candidat.<br/>
 Le candidat a 30 secondes pour deviner le prix exact du lot avec pour seule informations: ▪C'est plus.<br/>
 ▪C'est moins.
 ### <span style="color: green">Consigne</span>
@@ -68,7 +68,7 @@ Générez un nombre aléatoire entre 0 et "N" saisie par l'utilisateur.Construis
 
 ## **Jeux 3 Roller Coaster**
 ### <span style="color: green">Contexte</span>
-Vous êtes ingénieur et on vous demande de calculer les profits que peut réaliserun Roller Coasteren une journée.<br/>
+Vous êtes ingénieur et on vous demande de calculer les profits que peut réaliser un Roller Coaster en une journée.<br/>
 ▪Un groupe de visiteur ne veut pas être séparé pour un tour de Roller Coaster.<br/>
 ▪Dès qu'il n'y a plus assez de places dans le manège pour le prochain groupe, il démarre.<br/>
 ▪Quand un groupe de visiteur a déjà fait un tour de manège, il se remet dans la file d'attente.<br/>
@@ -82,9 +82,9 @@ Avec les informations du contexte et les données (places, tours, file), écrive
 ## **Jeux 4 Le jeu du pendu**
 ### <span style="color: green">Contexte</span>
 Le jeu du pendu consiste à faire deviner un mot à une autre personne.<br/>
-Le mot est masqué et le joueur qui doit deviner le mot n'a le droit de donner qu'une lettre à la fois.<br/>
-Si cette lettre est dans le mot, elle est dévoilée
-<br/>Sinon le joueur perd une vieSi le joueur n'a plus de vie, il a perdu.
+Le mot est masqué et le joueur qui doit deviner le mot a le droit de donner qu'une lettre à la fois.<br/>
+Si cette lettre est dans le mot, cette dernière est dévoilée si ce n'est pas le cas le joueur perd une vie.
+<br/>Le joueur gagne si ik découvre le mot avant de perdre toutes ses vies.
 
 ### <span style="color: green">Consigne</span>
 Ecrivez un programme qui demande au premier utilisateur de saisir :<br/>
@@ -93,6 +93,6 @@ Ecrivez un programme qui demande au premier utilisateur de saisir :<br/>
 Masquez le mot de sorte à ce qu'il ressemble à _ _ _ _ _ _ _ (ex : bonjour)
 Demandez au joueur une lettre (ex: "o")<br/>
 Si cette lettre est dans le mot, affichez : _ o _ _ o _ _ Sinon il perd une vie
-<br/>Quand le mot est affiché entièrement, le joueur gagneSi le joueur n'a plus de vie, il perd.
+<br/>Quand le mot est affiché entièrement, le joueur gagne. Si le joueur n'a plus de vie, il perd.
 
 
