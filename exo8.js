@@ -1,11 +1,11 @@
 const read = require("readline-sync");
 
-console.log("starstair");
+console.log("---starstair---");
 
-let nb = read.questionFloat("Nombre ? ");
-var stars = "";
+let nb = read.questionInt("Quel est le nombre de marche de l'escalier ? ");
+let stars = "";
 
-for (var i=1; i<=nb;i++)
+for (let i=1; i<=nb;i++)
 {
 //console.log(i);
 stars=stars+"*";
