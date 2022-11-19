@@ -1,7 +1,7 @@
 # exercices et jeux en js
 
-pour lancer un exercice ou un jeux
-effectuer d'abord la commande npm i pour installer les nodes modules
+pour lancer un exercice ou un jeux<br/>
+effectuer d'abord la commande npm i pour installer les nodes modules<br/>
 puis la commande node <nom_du_fichier>.js (exemple pour l'exercice 1 node exo1.js)
 
 ## **exercice 1**
